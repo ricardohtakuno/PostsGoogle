@@ -4,18 +4,22 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>
+    </title>
+<link rel ="stylesheet" type ="text/css" href ="Layout.css" />
 </head>
 <body>
     <form id="form1" runat="server">
     <div>
-        <h2>Sistema de Post</h2>
-        <br />
-        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Cadastrar.aspx">Cadastrar novo post</asp:HyperLink>
-        <br />
+        <h2 id="lblCabecalho">Sistema de Post</h2>
+        <asp:HyperLink ID="hplCadastrarNovoPost" runat="server" NavigateUrl="~/Cadastrar.aspx">Cadastrar novo post</asp:HyperLink>
         <br />
         <br />
-        <strong>Listagem de posts<br />
+        <asp:HyperLink ID="hplCadastrarAutor" runat="server" NavigateUrl="~/CadastroAutor.aspx">Cadastrar autor</asp:HyperLink>
+        <br />
+        <br />
+        <asp:Label ID="lblListagemdePosts" runat="server" Text="Listagem de Posts"></asp:Label>
+        <strong><br />
         </strong>
         <br />
         <asp:DataList ID="dtlPosts" runat="server">

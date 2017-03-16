@@ -15,7 +15,7 @@ public partial class CadastroAutor : System.Web.UI.Page
 
     protected void btnCadastrar_Click(object sender, EventArgs e)
     {
-        using (SqlConnection con = new SqlConnection("Server=ame0556344w10-1\\sqlexpress (SENACEDU\ricardo.htakuno);Database=DB_GOOGLE;Trusted_Connection=Yes;"))
+        using (SqlConnection con = new SqlConnection("Server=AME0556344W10-1\\SQLEXPRESS;Database=DB_GOOGLE;Trusted_Connection=Yes;"))
         {
             using (SqlCommand cmd = new SqlCommand("Insert into tb_autor (nome, email, cidade, estado, bio) VALUES (@nome, @email, @cidade, @estado, @bio)", con))
             {
