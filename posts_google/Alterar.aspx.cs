@@ -15,7 +15,7 @@ public partial class Alterar : System.Web.UI.Page
             string codigo = Request.QueryString["id"];
             lblId.Text = codigo;
 
-            using (SqlConnection con = new SqlConnection("Server=ame0556344w10-1\\sqlexpress;Database=DB_GOOGLE;Trusted_Connection=Yes;"))
+            using (SqlConnection con = new SqlConnection("Server=ricardo-pc\\sqlexpress;Database=DB_GOOGLE;Trusted_Connection=Yes;"))
             {
                 using (SqlCommand cmd = new SqlCommand("SELECT * FROM TB_POSTS where id = " + codigo, con))
                 {
