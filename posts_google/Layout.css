@@ -12,17 +12,35 @@
 
 .titulo h2 {
     font-size: 28px;
+    margin-left: 50px;
+    margin-top: 40px;
 }
 
 .campo {
     margin-bottom: 1em;
+    font-size: 20px;
+}
+
+.campo [id="txtAutor"],
+.campo [id="txtTitulo"],
+.campo [id='txtConteudo'] {
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+#HyperLink1 {
+    font-size: 20px;
 }
 
 fieldset {
     border: 0;   
 }
 
-
+#area {
+    margin-left: 40px;
+    margin-top: 40px;
+}
 
 .botao {
     font-size: 1.5em;

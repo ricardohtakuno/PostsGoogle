@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "posts_google(1)", ".", "{48902F51-9886-43D1-98A9-F682A46EB797}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "posts_google", ".", "{48902F51-9886-43D1-98A9-F682A46EB797}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_1896"
@@ -21,6 +21,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "posts_google(1)", ".", "{48
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "1896"
+		SlnRelativePath = "..\posts_google\"
 	EndProjectSection
 EndProject
 Global
